@@ -8,7 +8,7 @@
 
 > *’Round and ’round the R workspace, code-monkey chased the {weasel}*
 >
-> *Code-monkey stopped to pop the first val…*
+> *Code-monkey stopped to extract the first val…*
 >
 > *`pop()` goes the {weasel}*
 
