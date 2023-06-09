@@ -4,12 +4,10 @@
 \alias{pop}
 \title{Pop the first element in-place}
 \usage{
-pop(x, ...)
+pop(x)
 }
 \arguments{
 \item{x}{'stack' from which a value should be popped}
-
-\item{...}{unused}
 }
 \value{
 the popped first element of \code{x}

@@ -2,8 +2,6 @@
 #'
 #' @param x 'stack' from which a value should be popped
 #'
-#' @param ... unused
-#'
 #' @return the popped first element of `x`
 #'
 #' @details This dispatches based on the `class()` of `x`. A macro
@@ -12,7 +10,7 @@
 #' element is returned.
 #'
 #' @export
-pop <- function(x, ...) {
+pop <- function(x) {
   UseMethod("pop")
 }
 

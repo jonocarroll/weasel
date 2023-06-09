@@ -3,8 +3,6 @@
 #' @param x 'stack' into which a value should be pushed
 #' @param y value (matching the class of `x`) to be pushed on to `x`
 #'
-#' @param ... unused
-#'
 #' @return the updated object `x`, invisibly
 #'
 #' @details This dispatches based on the `class()` of `x`. A macro
@@ -12,7 +10,7 @@
 #' as the first element in-place.
 #'
 #' @export
-push <- function(x, y, ...) {
+push <- function(x, y) {
   UseMethod("push")
 }
 

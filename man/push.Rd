@@ -4,14 +4,12 @@
 \alias{push}
 \title{Push an element to an object in-place}
 \usage{
-push(x, y, ...)
+push(x, y)
 }
 \arguments{
 \item{x}{'stack' into which a value should be pushed}
 
 \item{y}{value (matching the class of \code{x}) to be pushed on to \code{x}}
-
-\item{...}{unused}
 }
 \value{
 the updated object \code{x}, invisibly
