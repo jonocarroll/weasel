@@ -15,3 +15,5 @@ RoxygenNote: 7.2.1
 Roxygen: list(markdown = TRUE)
 Imports: 
     gtools
+URL: https://github.com/jonocarroll/weasel
+BugReports: https://github.com/jonocarroll/weasel/issues
