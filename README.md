@@ -189,10 +189,11 @@ Internally, the evaluation of each ‘method’ is a macro defined using
 `gtools::defmacro()` which enables substitution of input arguments and
 redefinition in the parent namespace.
 
-[This blogpost](https://jcarroll.com.au/TODO) covers the full details.
-[This article](https://www.r-project.org/doc/Rnews/Rnews_2001-3.pdf) in
-the R News Newsletter covers the construction and motivation of
-`defmacro()`.
+[This
+blogpost](https://jcarroll.com.au/2023/06/10/reflecting-on-macros/)
+covers the full details. [This
+article](https://www.r-project.org/doc/Rnews/Rnews_2001-3.pdf) in the R
+News Newsletter covers the construction and motivation of `defmacro()`.
 
 [^1]: It certainly is redefined internally, but the use of `defmacro()`
     means it does not need to be explicit
